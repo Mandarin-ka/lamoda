@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "ts-node-dev ./src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index",
+    "lint": "eslint . --fix"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.1",
+    "node-json-db": "^2.3.0",
+    "nodemon": "^3.1.7",
+    "qs": "^6.13.0",
+    "uuid": "^10.0.0",
+    "yup": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.3"
+  }
+}
